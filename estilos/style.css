@@ -62,6 +62,13 @@ section#Login > div#imagem {
 section#Login > div#formulario {
     display: block;
     padding:10px
+}
 
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+div#forumulario > p {
+    font-size: 0.8em;
 }

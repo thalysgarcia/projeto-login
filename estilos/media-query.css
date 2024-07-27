@@ -47,5 +47,8 @@
         
     }
 
-}
-     
+    div#formulario > p {
+        font-size: 100em;
+    }
+
+}     
