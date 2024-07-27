@@ -42,7 +42,7 @@ section#Login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
 }
@@ -71,4 +71,71 @@ div#formulario > h1 {
 
 div#forumulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #5F23A8;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+
+}
+/* Configuração para icones!  - Não mostra nada porque eu não coloquei! */
+div.campo > i {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40%;
+    margin: 1px;
+    background-color: #5F23A8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #7723e6e7;
+}
+
+div.campo > input {
+    background-color: rgba(247, 0, 255, 0.212);
+    font-size: 1em;
+    width: calc(100px - 44px) 
+    height: 100%;
+    border 0px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+form > a.botão {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40%;
+    margin: 1px;
+    background-color: #7537c09c;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.521);
+    text-decoration: none;
+}
+
+form > a.botão:hover {
+    background-color:  #7723e6e7
 }
